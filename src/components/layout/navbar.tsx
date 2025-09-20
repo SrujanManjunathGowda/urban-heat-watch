@@ -2,13 +2,12 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Menu, Leaf, MapPin, BarChart3, Settings, LogIn, Satellite } from "lucide-react";
+import { Menu, Leaf, MapPin, BarChart3, Settings, LogIn } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const navigation = [
   { name: "Dashboard", href: "/dashboard", icon: BarChart3 },
   { name: "Heat Map", href: "/heat-map", icon: MapPin },
-  { name: "NASA Map", href: "/nasa-map", icon: Satellite },
   { name: "Analytics", href: "/analytics", icon: BarChart3 },
   { name: "Settings", href: "/settings", icon: Settings },
 ];
